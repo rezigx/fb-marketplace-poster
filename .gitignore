@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# App runtime data (never commit customer/secret data)
+settings.json
+products.json
+*.db
+data.db
+
+# Facebook session
+fb_session.json
+
+# Build artifacts
+dist/
+build/
+*.spec
